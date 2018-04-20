@@ -38,8 +38,6 @@ public abstract class Pass {
 		this.departure = departure;
 	}
 	
-	public void showDetails() {
-		
-	}
+	public abstract void showDetails();
 	
 }
